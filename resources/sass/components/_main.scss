@@ -1,0 +1,123 @@
+.jumbo{
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/jumbotron.jpg');
+}
+
+.main-icone{
+    background-color: #0880f8;
+}
+  
+.main-icone section{
+    width: 70%;
+    height: 190px;
+    background-color: #0880f8;
+    margin: 0 auto;
+}
+  
+.main-icone .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+.main-icone .card{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    cursor: pointer;
+}
+  
+.main-icone span{
+    color: white;
+    text-transform: uppercase;
+    margin-left: 15px;
+    font-size: 15px;
+}
+  
+.main-icone img{
+    height: 65px;
+}
+  
+.main-icone .card:last-child img{
+    height: 50px;
+}
+
+main section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main div{
+    background-color: #212121;
+}
+
+main{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.series{
+    position: absolute;
+    top: -62px;
+    left: 0;
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 2px;
+    background-color: #0880f8;
+}
+
+.btn-load-more{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    background-color: #0880f8;
+    border: none;
+    padding: 10px 60px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+
+.btn-load-more:hover{
+    background-color: #0057ad;
+}
+
+main .fumetto{
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    cursor: pointer;
+}
+
+main .immagine{
+    height: 190px;
+    overflow: hidden;
+    transition-duration: 1s;
+}
+
+main .immagine:hover{
+    transform: scale(1.1);
+}
+
+.fumetto span{
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 15px 0;
+}
